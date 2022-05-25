@@ -8,8 +8,8 @@ sequenceDiagram
     SalesPerson->>Customer: KickOffMeeting
     Customer-->>SalesPerson: AgreeToOrder
     SalesPerson->>BookingTransport: BookTransport
-    BookingTransport->>SalesPerson: ConfirmTransportBooking
-    SalesPerson-)Customer: 
+    BookingTransport-->>SalesPerson: ConfirmTransportBooking
+    SalesPerson-)Customer: ConfirmedBoooking
  ```   
 
 
