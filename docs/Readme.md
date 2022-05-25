@@ -5,9 +5,10 @@
 
 ```mermaid
 sequenceDiagram
-    SalesPerson->>Customer: Hello John, how are you?
+    SalesPerson->>Customer: KickOffMeeting
     Customer-->>SalesPerson: AgreeToOrder
-    SalesPerson-)Customer: See you later!
+    SalesPerson->>BookingTransport: BookTransport
+    SalesPerson-)Customer: 
  ```   
 
 
