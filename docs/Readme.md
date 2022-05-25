@@ -9,6 +9,8 @@ sequenceDiagram
     Customer-->>SalesPerson: AgreeToOrder
     SalesPerson->>BookingTransport: BookTransport
     BookingTransport-->>SalesPerson: ConfirmTransportBooking
+    SalesPerson->>BookingHotel: BookHotel
+    BookingHotel-->>SalesPerson: ConfirmHotelBooking
     SalesPerson-)Customer: ConfirmedBoooking
  ```   
 
