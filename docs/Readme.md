@@ -2,6 +2,15 @@
 
 # https://mermaid-js.github.io/mermaid/#/
 
+
+```mermaid
+sequenceDiagram
+    SalesPerson->>Customer: Hello John, how are you?
+    Customer-->>SalesPerson: AgreeToOrder
+    SalesPerson-)Customer: See you later!
+ ```   
+
+
 ```mermaid
 graph TD;
     A-->B;
